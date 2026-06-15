@@ -12,7 +12,7 @@ let temp=null
 // boolean => true/false
 // null => standalone value
 // undefined => 
-// symbol => unique
+// symbol => uniqe
 
 
 console.log([typeof name,typeof age,typeof isloggedIn,typeof state]);
