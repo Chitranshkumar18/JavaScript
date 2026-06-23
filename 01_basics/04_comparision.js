@@ -5,7 +5,7 @@ console.log(2<1)
 console.log(2<=1) 
 console.log(2!=1) 
 
-console.log("2">"3"); // it convert automatically string into the no
+console.log("2">"3"); // String vs String → Lexicographical comparison
  console.log(2>"3"); // it convert automatically string into the no
 
 console.log(0<null);//false because of null is convert into the no and that is 0(zero)
