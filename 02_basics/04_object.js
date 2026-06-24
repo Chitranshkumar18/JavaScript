@@ -86,7 +86,19 @@ const {courseInstructor,price,coursename}=course //Object Destructuring
 console.log(price);
 
 
-//++++++++++++ json +++++++++++++++++
+//++++++++++++ json (JavaScript Object Notation)+++++++++++++++++
+
+//Keys double quotes (" ") me honi chahiye.
+//JSON is a text/string format, not an object.
+//  Convert Object to JSON => JSON.stringify(obj);
+//Convert JSON to Object => JSON.parse(jsonString);
+
+//Object  --JSON.stringify()-->  JSON String
+
+//JSON String  --JSON.parse()-->  Object
+
+
+
 
 // {
 //     // it is json
