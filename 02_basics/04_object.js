@@ -81,7 +81,7 @@ const course = {
 }
 // console.log(course.courseInstructor);
 
-const {courseInstructor,price,coursename}=course
+const {courseInstructor,price,coursename}=course //Object Destructuring
 
 console.log(price);
 
