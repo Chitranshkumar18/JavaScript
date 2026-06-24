@@ -1,3 +1,6 @@
+// for in loop mainly use for object but it also work on the Array, String, 
+
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
