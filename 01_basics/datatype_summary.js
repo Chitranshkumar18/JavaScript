@@ -32,7 +32,7 @@ const bigNum=11118328756323247538n//Bigint
 const arr=(1,2,3,4,5,6,7,8)//Array
 
 
-const myobj={// onject
+const myobj={// object
     name:"Lakshay",
     age: 20,
 }
@@ -40,7 +40,7 @@ console.log(myobj.name);
 
 
 
-const myFunction = function(){
+const myFunction = function(){// function
     console.log("hello word");
     
 }
