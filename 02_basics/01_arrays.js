@@ -41,7 +41,7 @@ const myArr2 = new Array(1,2,3,4,6);
 // console.log("A", myArr);
 
 
-const myn1 = myArr.slice(1,3);// it does not take element of the range
+const myn1 = myArr.slice(1,3);// it does not take all element of the range
 console.log(myn1);
 
 
