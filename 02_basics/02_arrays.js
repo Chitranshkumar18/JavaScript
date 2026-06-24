@@ -15,7 +15,7 @@ const arr1 = ["iyar", "pant", "gill"];
 // console.log(arr5);
 
 console.log(Array.isArray(arr1));// it tell something is array or 
-console.log(Array.from("Lakshay"))// it convert string into array
+console.log(Array.from("Lakshay"))// it convert string into array => ['L', 'a', 'k', 's', 'h', 'a', 'y']
 console.log(Array.from({name: "hitesh"}))
 
 
