@@ -16,7 +16,7 @@ const arr1 = ["iyar", "pant", "gill"];
 
 console.log(Array.isArray(arr1));// it tell something is array or 
 console.log(Array.from("Lakshay"))// it convert string into array => ['L', 'a', 'k', 's', 'h', 'a', 'y']
-console.log(Array.from({name: "hitesh"}))
+console.log(Array.from({name: "hitesh"}))//Iterable chahiye (String, Array, Set, Map, etc.) Array-like object chahiye (jisme length property ho) na iterable hai aur na hi isme length property hai. isliye ek empty array return karta hai:
 
 
 let score1 = 100
