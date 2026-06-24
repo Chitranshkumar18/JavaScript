@@ -1,3 +1,5 @@
+//forEach => Array, Map, Set
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach(function (val){
