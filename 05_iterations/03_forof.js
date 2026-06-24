@@ -1,4 +1,4 @@
-// for of 
+// forof => Array, String, Map, Set
 
 
 
