@@ -1,7 +1,7 @@
 const score=101
 console.log(score);
 
- const balance = new Number(100);// outpur with datatype
+ const balance = new Number(100);// output with datatype
  console.log(balance);
 
 console.log(typeof(balance.toString()));// its type string
