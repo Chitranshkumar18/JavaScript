@@ -1,14 +1,45 @@
-// function hello(){
-//     console.log("L");
-//     console.log("A");
-//     console.log("K");
-//     console.log("S");
-//     console.log("H");
-//     console.log("A");
-//     console.log("Y");
+
+// Why Do We Use Functions?
+
+// Without functions:
+
+// console.log("Hello Chitransh");
+// console.log("Hello Chitransh");
+// console.log("Hello Chitransh");
+
+// Same code baar-baar likhna padega.
+
+// With functions:
+
+// function greet() {
+//     console.log("Hello Chitransh");
 // }
 
-//hello() // hello is only refrence and () is execution
+// greet();
+// greet();
+// greet();
+
+// ✅ Code reusable ho jata hai.
+// ✅ Code readable hota hai.
+// ✅ Maintenance easy ho jati hai.
+
+
+
+
+
+
+
+function hello(){
+    console.log("L");
+    console.log("A");
+    console.log("K");
+    console.log("S");
+    console.log("H");
+    console.log("A");
+    console.log("Y");
+}
+
+hello() // hello is only refrence and () is execution
 
 
 function addtwo(number1, number2){//(number1, number2) is parameter
