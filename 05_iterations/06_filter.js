@@ -8,9 +8,9 @@
 
 
 
-// const nums = [1,2,3,4,5,6,7,8]
-// const newNums = nums.filter( (num)=>(num>4) ) // yha pr humane without return statement ke num ko print kara liya hai 
-// console.log(newNums)
+const nums = [1,2,3,4,5,6,7,8]
+const newNums = nums.filter( (num)=>(num>4) ) // yha pr humane without return statement ke num ko print kara liya hai 
+console.log(newNums)// filter new array return karta hai 
 
 
 const mynum = [1,2,3,4,5,6,7,8]
