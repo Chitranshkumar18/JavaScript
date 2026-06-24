@@ -8,7 +8,7 @@
 // console.log(c);
 
 
-
+//Lexical Scope
 function one(){// parent
     const username = "Lakshay"
 
