@@ -2,7 +2,7 @@
 
 //  const values = coding.forEach( (item) => {
 //     //console.log(item);  
-//     return item;
+//     return item; // (return value = undefined )=> forEach() return ko ignore kar deta hai.
 // })
 // console.log(values);
 
