@@ -22,3 +22,49 @@
     
 </body>
 </html>
+
+
+<!-- 
+//+++++++++++++++innerText vs innerContent vs innerHTML++++++++++++//
+ +++++++++++++++++innerTest ++++++++++++++++++++++
+          Sirf visible text deta hai.
+
+<div id="box">
+    Hello
+    <span style="display:none">Hidden</span>
+</div> 
+        output => Hello
+
+++++++++++++++++++innerContent+++++++++++++++++++
+Element ke andar ka poora text deta hai, hidden text bhi.Faster hota hai kyunki browser ko CSS visibility check nahi karni padti.
+<div id="box">
+    Hello <b>World</b>
+</div>
+
+        output => Hello <b>World</b>
+
++++++++++++++++++++innerHTML+++++++++++++++++++++
+    Element ke andar ka poora HTML markup deta hai
+<div id="box">
+    Hello <b>World</b>
+</div>
+          output => Hello <b>World</b>
+-->
+
+
+
+
+<!--
+
+++++++++++++++++++++++++++++++Event Bubbling vs Event Capturing+++++++++++++++++++++++++++++++
+           ++++++++++++Event Bubbling+++++++++++++++
+
+Event target element se start hokar parent elements ki taraf propagate hota hai.
+                 Child → Parent → Grandparent
+
+           +++++++++++++Event Capturing+++++++++++++
+
+Event outermost ancestor se start hokar target element tak aata hai.
+                  Grandparent → Parent → Child
+
+-->
