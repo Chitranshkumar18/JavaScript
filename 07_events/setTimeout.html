@@ -23,5 +23,50 @@
         clearTimeout(changeMe)
         console.log("STOPPED")
     })
+        
+  //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+    console.log("Start");
+
+    setTimeout(() => {      
+          console.log("Middle");
+    }, 2000);
+
+         console.log("End");
+
+//+++++++++++++++++++++++++++++++++++++++++++++++ why End print before Middle+++++++++++++++++++++++++++++++++++++++++++++++++++// 
+
+    
+//            Call Stack
+
+//        console.log("Start")
+//                ↓
+
+//           setTimeout()
+//                ↓
+
+//        Timer starts (Browser)
+
+//                ↓
+
+//          console.log("End")
+
+//                ↓
+
+//         2 seconds complete
+
+//                ↓
+
+//           Callback Queue
+
+//                 ↓
+
+//              Call Stack
+
+//                 ↓
+
+//           console.log("Middle")
+
+    
 </script>
 </html>
