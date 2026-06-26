@@ -13,6 +13,39 @@
 4	DONE	The operation is complete.
 </body>
 <script>
+
+    
+   
+//+++++++++++++++++++++++++++XHR+++++++++++++++++++++++++++++++++++//
+  // XMLHttpRequest (XHR) is a built-in JavaScript object used to send and receive data from a server without reloading the webpage.
+  // It allows JavaScript to communicate with a server asynchronously.
+
+
+//+++++++++++++++++++++++++ Why was XMLHttpRequest introduced?++++++++++++++++++++++++++++++++++++//
+
+//   +++++++++++++++++++++++++++Before XHR:++++++++++++++++++++++++++++++++++
+
+//                 User clicks button
+//                        ↓
+//               Browser sends request
+//                        ↓
+//                Entire page reloads
+//                        ↓
+//                  New page loads
+
+//  ++++++++++++++++++++++++++After XHR:++++++++++++++++++++++++++++++++++++++
+
+//               User clicks button
+//                       ↓
+//            JavaScript sends request
+//                       ↓
+//              Server returns data
+//                       ↓
+//        Only required part of page updates
+
+// This is called AJAX (Asynchronous JavaScript and XML).
+
+    
     const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
     const xhr = new XMLHttpRequest();
     xhr.open('GET', requestUrl)
