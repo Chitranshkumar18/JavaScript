@@ -1,10 +1,31 @@
+//         Promise
+
+//            │
+
+//      Promise created
+//           |
+//        Pending
+
+//       /       \
+
+//  Success      Failure
+
+//    │             │
+
+//  Resolved     Rejected
+
+//    │             │
+
+//  then()      catch()
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 const promisesOne = new Promise(function(resolve, reject){
     //Do an async task
     //DB call, cryptography, network
     setTimeout(function(){
         //console.log('Async task is complete');
-        
-    },1000)
+                                                                    
+    },1000)                                                             
 })
 
 promisesOne.then(function(){
